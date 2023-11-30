@@ -1,3 +1,5 @@
+/*part of Northwind sample database*/
+
 CREATE TABLE Orders (
     OrderID INT,
     CustomerID INT,
@@ -47,6 +49,12 @@ INSERT INTO Products (ProductID, ProductName, SupplierID, CategoryID, Unit, Pric
 (4, 'Chef Anton''s Cajun Seasoning', 2, 2, '48 - 6 oz jars', 22),
 (5, 'Chef Anton''s Gumbo Mix', 2, 2, '36 boxes', 21.35);
 
+INSERT INTO Products (ProductID, ProductName, SupplierID, CategoryID, Unit, Price) VALUES
+(5, 'Chef Anton''s Gumbo Mix', 2, 2, '36 boxes', 21.35),
+(6, 'Grandma''s Boysenberry Spread', 3, 2, '12 - 8 oz jars', 25),
+(7, 'Uncle Bob''s Organic Dried Pears', 3, 7, '12 - 1 lb pkgs.', 30),
+(8, 'Northwoods Cranberry Sauce', 3, 2, '12 - 12 oz jars', 40),
+(9, 'Mishi Kobe Niku', 4, 6, '18 - 500 g pkgs.', 97);
 
 CREATE TABLE OrderDetails (
     OrderDetailID INT,
@@ -62,6 +70,12 @@ INSERT INTO OrderDetails (OrderDetailID, OrderID, ProductID, Quantity) VALUES
 (4, 10249, 14, 9),
 (5, 10249, 51, 40);
 
+INSERT INTO OrderDetails (OrderDetailID, OrderID, ProductID, Quantity) VALUES
+(6, 10250, 41, 10),
+(7, 10250, 51, 35),
+(8, 10250, 65, 15),
+(9, 10251, 22, 6),
+(10, 10251, 57, 15);
 
 CREATE TABLE Agents (
     AGENT_CODE VARCHAR(5),
@@ -138,3 +152,17 @@ INSERT INTO Shippers (ShipperID, ShipperName) VALUES
 (1, 'Speedy Express'),
 (2, 'United Package'),
 (3, 'Federal Shipping');
+
+
+CREATE TABLE Persons (
+    ID INT,
+    LastName VARCHAR(255),
+    FirstName VARCHAR(255),
+    Address VARCHAR(255),
+    City VARCHAR(255)
+);
+
+INSERT INTO Persons (ID, LastName, FirstName, Address, City) VALUES
+(1, 'Hansen', 'Ola', 'Timoteivn 10', 'Sandnes'),
+(2, 'Svendson', 'Tove', 'Borgvn 23', 'Sandnes'),
+(3, 'Pettersen', 'Kari', 'Storgt 20', 'Stavanger');
