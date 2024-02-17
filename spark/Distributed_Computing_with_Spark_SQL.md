@@ -59,51 +59,39 @@ At a high level, big data is generally referred to as more data **than** can fit
 
 
 
-![unified_engine](\\wsl.localhost\Ubuntu\home\fl\docs\accelerated-mastery\spark\images\unified_engine.PNG)
 
 
+* Before Spark, the field was dominated by a number of individual tools that were difficult to piece together. 
 
-Before Spark, the field was dominated by a number 
-
-of individual tools that 
-
-were difficult to piece together. 
-
-Spark simplifies working with 
-
-data by supporting different languages, 
-
-including SQL, a common language among data analysts. 
-
-It supports Python and R for data scientists, 
-
-and Scala and Java, 
-
-which is common among software engineers
+* Spark simplifies working with data by supporting different languages, including SQL, a common language among data analysts. It supports Python and R for data scientists, and Scala and Java, which is common among software engineers
 
 
 
 
 
-Spark also rose to popularity by 
+* Spark also rose to popularity by reading and processing data from many disparate sources, including databases like Postgres or MySQL, Blob Stores like Amazon's S3, data warehouses and files like CSVs. 
 
-reading and processing data from many disparate sources, 
+* Since much of real life data science involves getting data from various sources and preparing it for use, Spark solved many of the problems faced by analysts, scientists, and engineers. 
 
-including databases like Postgres or MySQL, 
 
-Blob Stores like Amazon's S3, 
 
-data warehouses and files like CSVs. 
 
-Since much of real life data science involves 
 
-getting data from various sources 
 
-and preparing it for use, 
 
-Spark solved many of the problems 
 
-faced by analysts, scientists, and engineers. 
+
+* Spark  is able to achieve linear scalability, improvements up to thousands of new machines. Linear scalability is one of the primary goals of distributed systems. 
+
+
+
+The two main use cases for Spark, are when you need to scale out or speedup. 
+
+
+
+**Scale out** When you need to scale out to larger amounts of data: You need to scale out if you have too much data to process on a single machine. Even if you're data can fit on a single machine, 
+
+**Speed up** When you need to speed up your queries: You can still benefit from speeding up your query by adding more compute resources. 
 
 
 
