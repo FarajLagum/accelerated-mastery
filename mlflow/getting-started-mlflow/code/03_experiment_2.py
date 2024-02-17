@@ -8,7 +8,7 @@ import mlflow
 mlflow.set_experiment("Dropping columns")
 
 # Load the complete dataset, select features + target variable
-data = pd.read_csv("../ames_housing.csv")
+data = pd.read_csv("ames_housing.csv")
 feature_columns = ["Lot Area", "Gr Liv Area", "Garage Area", "Bldg Type"]
 selected = data.loc[:, feature_columns + ["SalePrice"]]
 
