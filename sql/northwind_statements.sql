@@ -665,4 +665,10 @@ DROP COLUMN DateOfBirth;
 
 
 
+--TEMPORARY TABLE
+CREATE TEMPORARY TABLE Germany AS
+SELECT * 
+FROM Customers
+WHERE Customers.Country = 'Germany';
 
+SELECT * FROM Germany;

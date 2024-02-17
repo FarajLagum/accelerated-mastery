@@ -164,3 +164,7 @@ cython_debug/
 
 ./*/*.pdf:Zone.Identifier
 ./*/*.ipynb:Zone.Identifier
+
+.DS_Store
+**/.DS_Store
+
