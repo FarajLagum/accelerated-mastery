@@ -49,61 +49,27 @@ At a high level, big data is generally referred to as more data **than** can fit
 ### Spark
 
 * We need to divide that data and the processing across a number of different machines in order to be able to interact with it. That's where Spark comes in.
-
 * Spark is the open-source industry standard  tool for manipulating big data.
 * Spark solution to the problem of big data is to provide the first unified analytics engine. 
 
 
 
-![](./images/unified_engine.png)
-
-
-
-![unified_engine](\\wsl.localhost\Ubuntu\home\fl\docs\accelerated-mastery\spark\images\unified_engine.PNG)
-
-
-
-Before Spark, the field was dominated by a number 
-
-of individual tools that 
-
-were difficult to piece together. 
-
-Spark simplifies working with 
-
-data by supporting different languages, 
-
-including SQL, a common language among data analysts. 
-
-It supports Python and R for data scientists, 
-
-and Scala and Java, 
-
-which is common among software engineers
+![](/images/unified_engine.png)
 
 
 
 
 
-Spark also rose to popularity by 
+* Before Spark, the field was dominated by a number of individual tools that were difficult to piece together. 
 
-reading and processing data from many disparate sources, 
+* Spark simplifies working with data by supporting different languages, including SQL, a common language among data analysts. 
 
-including databases like Postgres or MySQL, 
+* It supports Python and R for data scientists, and Scala and Java, which is common among software engineers
 
-Blob Stores like Amazon's S3, 
+* Spark also rose to popularity by reading and processing data from many disparate sources, including databases like Postgres or MySQL, Blob Stores like Amazon's S3, data warehouses and files like CSVs. 
 
-data warehouses and files like CSVs. 
-
-Since much of real life data science involves 
-
-getting data from various sources 
-
-and preparing it for use, 
-
-Spark solved many of the problems 
-
-faced by analysts, scientists, and engineers. 
+* Since much of real life data science involves getting data from various sources and preparing it for use, Spark solved many of the problems faced by analysts, scientists, and engineers. 
+* Spark allows you to take your knowledge of SQL and scale it to theoretically an infinite amount of data. 
 
 
 
